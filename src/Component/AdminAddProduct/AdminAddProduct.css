@@ -1,0 +1,19 @@
+.addProductForm {
+  max-width: 600px;
+  background-color: rgb(34, 85, 105);
+  margin: 0 auto;
+  padding: 1rem;
+}
+.addProductForm input {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+::placeholder {
+  font-size: 2rem;
+}
+.addProductContainer h1 {
+  margin: 2rem 0;
+  border-bottom: 2px solid lightsalmon;
+  width: 100%;
+}

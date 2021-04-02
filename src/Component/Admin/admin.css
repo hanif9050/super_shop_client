@@ -1,0 +1,20 @@
+.adminContainer {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+
+  height: 100vh;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.adminLeft {
+  background-color: darkgrey;
+  display: flex;
+  flex-direction: column;
+}
+.adminLeft button {
+  padding: 3rem 0;
+  cursor: pointer;
+}
+.adminLeft button:hover {
+  background-color: lightgray;
+}

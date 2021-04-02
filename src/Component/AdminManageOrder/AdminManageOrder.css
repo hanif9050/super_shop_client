@@ -1,0 +1,24 @@
+.adminManageContainer {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+.adminOrder {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.adminOrder p {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+.adminOrder h1 {
+  margin: 2rem 0;
+}
+.adminDeleteBtn button {
+  padding: 0.5rem;
+  max-height: 37px;
+}
+.adminAlign {
+  border-bottom: 2px solid black;
+  padding: 0.2rem 0.5rem;
+}

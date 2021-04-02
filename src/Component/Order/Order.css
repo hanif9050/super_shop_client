@@ -1,0 +1,27 @@
+.orderContainer {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.listOrder {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.listAlign {
+  border-bottom: 2px solid black;
+  padding: 0.2rem 0.5rem;
+}
+
+.listOrder p {
+  margin: 0.5rem;
+  font-weight: bold;
+}
+.listOrder h1 {
+  margin: 1rem 0;
+}
+@media screen and (max-width: 800px) {
+  .listOrder {
+    grid-template-columns: 1fr;
+  }
+}

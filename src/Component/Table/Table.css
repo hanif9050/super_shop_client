@@ -1,0 +1,20 @@
+.table-container {
+  max-width: 700px;
+
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.5);
+}
+
+th {
+  border-bottom: gray;
+  padding: 0.5rem;
+}
+.checkoutBtn {
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+}
+
+.table-main {
+  padding: 3rem 0;
+}
